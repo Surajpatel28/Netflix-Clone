@@ -1,0 +1,39 @@
+.form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+form input {
+    text-align: start;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    border-radius: 25px;
+    width: 240px;
+    height: 31px;
+    padding: 4px;
+    padding-left: 10px;
+    
+}
+form input:active{
+    outline: 1px solid white;
+}
+form input:hover{
+    cursor: text;
+}
+
+form button {
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 12px;
+}
+form button:hover{
+    cursor: pointer;
+}

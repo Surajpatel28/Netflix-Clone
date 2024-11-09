@@ -1,0 +1,42 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarButtons {
+    margin-right: 1.75rem;
+}
+
+.navbarButtons > select {
+    border-radius: 25px;
+    margin-right: 0.50rem;    
+    height: 25px;
+    width: 68px;
+    font-size: 0.65rem;
+    padding-left: 8px;
+    background-color: black;
+    color: white;
+    background-image: url(./translate.png);
+}
+.navbarButtons > button {
+    margin-right: 0.50rem;    
+    border-radius: 25px;
+    height: 28px;
+    width: 3.5rem;
+    font-size: 0.65rem;
+    transition: ease 0.150s;
+}
+
+.navbarButtons > button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.logo {
+    margin-top: 0.10rem;
+    margin-left: 1.50rem;
+    
+}
+
