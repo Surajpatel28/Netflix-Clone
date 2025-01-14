@@ -1,8 +1,55 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Netflix clone built using React and CSS. It aims to replicate the user interface of Netflix with a focus on responsiveness, ensuring a seamless experience across devices.
 
-Currently, two official plugins are available:
+## Preview on Desktop:
+![image](https://github.com/user-attachments/assets/40676770-7df1-4449-8e44-f851736031e3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design**: Optimized layouts for desktop, tablet, and mobile screens.
+- **Navigation Bar**: A dynamic and interactive navigation bar.
+- **Trending Section**: Displays trending content.
+- **Video Player**: Embedded videos with responsive scaling.
+- **Email Form**: Interactive email subscription form.
+
+## Technologies Used
+- **Frontend**: React, HTML, CSS
+- **Styling**: Tailwind (Optional) or custom CSS with Flexbox and Grid
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/netflix-clone.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd netflix-clone
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
+
+## Folder Structure
+- **src**: Contains the React components, assets, and styles.
+  - `App.js`: Main application file.
+  - `components/`: Includes reusable UI components (e.g., Navbar, TrendingCard).
+  - `styles/`: Contains all CSS files.
+
+## Future Improvements
+- Implement a backend with Node.js and MongoDB for data persistence.
+- Add user authentication (Login/Signup).
+- Enhance animations.
