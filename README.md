@@ -6,15 +6,14 @@ This project is a Netflix clone built using React and CSS. It aims to replicate 
 ![image](https://github.com/user-attachments/assets/40676770-7df1-4449-8e44-f851736031e3)
 
 ## Features
-- **Responsive Design**: Optimized layouts for desktop, tablet, and mobile screens.
+- **Responsive Design**: Optimized layouts for desktop.
 - **Navigation Bar**: A dynamic and interactive navigation bar.
 - **Trending Section**: Displays trending content.
-- **Video Player**: Embedded videos with responsive scaling.
 - **Email Form**: Interactive email subscription form.
 
 ## Technologies Used
 - **Frontend**: React, HTML, CSS
-- **Styling**: Tailwind (Optional) or custom CSS with Flexbox and Grid
+- **Styling**: Tailwind or custom CSS with Flexbox and Grid
 
 ## Installation
 
