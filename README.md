@@ -52,3 +52,5 @@ This project is a Netflix clone built using React and CSS. It aims to replicate 
 - Implement a backend with Node.js and MongoDB for data persistence.
 - Add user authentication (Login/Signup).
 - Enhance animations.
+
+## You can view the site <a herf="https://spectacular-malasada-135f7a.netlify.app/" >here</a>
