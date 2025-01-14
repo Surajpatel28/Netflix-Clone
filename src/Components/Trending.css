@@ -1,0 +1,7 @@
+.trending{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    width: calc(100vw - 160px);
+}

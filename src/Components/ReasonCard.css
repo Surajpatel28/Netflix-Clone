@@ -1,0 +1,37 @@
+    .reasons{
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 115px;
+    margin-left: 120px;
+}
+
+.individual-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #282828;
+    border: 2px solid #303030 ;
+    border-radius: 16px;
+}
+
+.individual-cards p {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 14px;
+}
+
+.individual-cards img {
+    padding-top: 30px;
+    padding-right: 7px;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+#heart{
+    width: 40px;
+}

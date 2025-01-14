@@ -1,0 +1,12 @@
+.trendingimg {
+    width: 153px;
+    height: auto;
+    margin: 5px;
+    border-radius: 8px;
+    transition: ease 0.4s;
+}
+
+.trendingimg:hover{
+    cursor: pointer;
+    transform: scale(105%);
+}

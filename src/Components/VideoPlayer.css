@@ -1,0 +1,57 @@
+.VideoPlayer {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80vh;
+    border-radius: 1rem;
+    border: 0.5px solid rgb(255, 255, 255, 0.5);
+    overflow: hidden; 
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    z-index: 99;
+}
+
+.VideoPlayer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./netflixBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -1; 
+    border-radius: 1rem; 
+}
+
+.VideoPlayer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45%; 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 0; 
+    border-radius: 0 0 1rem 1rem; 
+    
+}
+
+.VideoPlayer > h1 {
+    font-weight: 800;
+    height: auto;
+    text-align: center;
+    width: 40%;
+    font-size: 3rem;
+}
+.VideoPlayer > p {
+    
+    font-size: smaller;
+}
